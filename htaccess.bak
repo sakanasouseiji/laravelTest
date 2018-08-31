@@ -1,0 +1,9 @@
+Alias / "/share/www/org/Sample/laravelTest/laravel/public/"
+
+<Directory "/share/www/org/Sample/laravelTest/laravel/public/">
+	Option Indexes FollowSymLinks MultiViews
+	AllowOverride all
+		Order allow,deny
+	Allow from all
+</Directory>
+
